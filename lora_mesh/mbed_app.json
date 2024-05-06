@@ -1,0 +1,9 @@
+{
+    "requires": ["bare-metal", "events"],
+    "target_overrides": {
+        "*": {
+            "events.use-lowpower-timer-ticker": 1,
+            "platform.cpu-stats-enabled": 1
+        }
+    }
+}
